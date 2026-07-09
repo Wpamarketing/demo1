@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manisha Roy | Pastry Chef & Cake Artist</title>
+    <meta name="description" content="Portfolio of Manisha Roy, a Pastry Chef and Cake Artist who creates sweet masterpieces and shares baking inspiration.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Fredoka:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating Sparkles & Hearts (Decorative background elements) -->
+    <div class="decorations">
+        <div class="sparkle sparkle-1">✦</div>
+        <div class="sparkle sparkle-2">✦</div>
+        <div class="sparkle sparkle-3">✦</div>
+        <div class="heart heart-1">♥</div>
+        <div class="heart heart-2">♥</div>
+        <div class="heart heart-3">♥</div>
+        <div class="star star-1">★</div>
+        <div class="star star-2">★</div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar-header">
+        <div class="navbar-container">
+            <a href="#home" class="logo">
+                <span class="logo-circle">MR</span>
+                <span class="logo-text">Manisha Roy</span>
+            </a>
+            <button class="mobile-nav-toggle" aria-label="Toggle Navigation" id="mobileNavToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#blog" class="nav-link">Blog</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#contact" class="btn-connect">Let's Connect <span class="btn-icon">✉</span></a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- 1. Hero Section -->
+        <section id="home" class="section hero-section">
+            <div class="container hero-container">
+                <div class="hero-left">
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1 class="hero-name">Manisha<br>Roy <span class="heart-icon">♡</span></h1>
+                    <div class="badge-container">
+                        <span class="pill-badge">Baking - Cake Decorating - Sugar Art</span>
+                    </div>
+                    <p class="hero-description">
+                        I create custom cake masterpieces, develop sweet recipes, and bring joy through delicious pastries.
+                    </p>
+                    <div class="hero-ctas">
+                        <a href="#projects" class="btn btn-primary">Bakery Projects <span class="arrow">→</span></a>
+                        <a href="#" class="btn btn-secondary" id="downloadCv">Download Menu <span class="download-icon">📥</span></a>
+                    </div>
+                    
+                    <div class="scroll-down-container">
+                        <a href="#about" class="scroll-down-link">
+                            <div class="mouse-icon">
+                                <div class="wheel"></div>
+                            </div>
+                            <span>Scroll Down</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-right">
+                    <div class="illustration-wrapper hero-wrapper">
+                        <!-- Custom Sticky Notes & Floating Speech Bubbles -->
+                        <div class="bubble dream-bubble">
+                            <p>Bake</p>
+                            <p>Whisk</p>
+                            <p>Decorate</p>
+                            <p>Smile</p>
+                        </div>
+                        <img src="assets/hero_girl.png" alt="Manisha working at a desk" class="main-illustration hero-illustration">
+                        <div class="sticky-note">Sweet Life</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Wavy Section Divider -->
+        <div class="wave-divider wave-to-purple">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V0C26.9,8.75,53.05,22,81.13,31C164.71,57.77,248.8,69.58,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+
+        <!-- 2. About Me Section -->
+        <section id="about" class="section about-section bg-purple">
+            <div class="container about-container">
+                <div class="about-left">
+                    <h2 class="section-title">About Me <span class="heart-icon">♡</span></h2>
+                    <p class="about-text">
+                        I'm a passionate pastry chef and cake artist who loves experimenting with flavors, decorating custom wedding cakes with precision, and writing baking guides.
+                    </p>
+                    <p class="about-text">
+                        When I'm not in my chef whites whisking meringue, you'll find me sketching cake blueprints, tasting specialty chocolates, or filming recipe videos!
+                    </p>
+                    
+                    <div class="about-traits">
+                        <div class="trait-card">
+                            <div class="trait-icon star-icon">✦</div>
+                            <h3>Artistry</h3>
+                            <p>I design stunning custom cake decorations.</p>
+                        </div>
+                        <div class="trait-card">
+                            <div class="trait-icon target-icon">☉</div>
+                            <h3>Flavors</h3>
+                            <p>I balance tastes with seasonal assets.</p>
+                        </div>
+                        <div class="trait-card">
+                            <div class="trait-icon heart-icon">♥</div>
+                            <h3>Precision</h3>
+                            <p>I bake with exact science and ratios.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-right">
+                    <div class="illustration-wrapper about-wrapper">
+                        <img src="assets/about_girl.png" alt="Manisha sitting cross-legged" class="main-illustration about-illustration">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Fun Facts Horizontal Pill -->
+            <div class="fun-facts-container">
+                <div class="fun-facts-pill">
+                    <span class="fun-facts-title">Fun Facts ♡</span>
+                    <div class="fun-facts-grid">
+                        <span class="fact-tag"><span class="fact-emoji">🌅</span> Early Bird</span>
+                        <span class="fact-tag"><span class="fact-emoji">🍫</span> Chocolate Lover</span>
+                        <span class="fact-tag"><span class="fact-emoji">☕</span> Coffee Addict</span>
+                        <span class="fact-tag"><span class="fact-emoji">🐻</span> Bear-Cookie Fan</span>
+                        <span class="fact-tag"><span class="fact-emoji">📝</span> Recipe Writer</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Wavy Divider to Soft Pink -->
+        <div class="wave-divider wave-to-pink">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86C248.8,69.58,164.71,57.77,81.13,31,53.05,22,26.9,8.75,0,0V120H1200V95.83C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+            </svg>
+        </div>
+
+        <!-- 3. My Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="container skills-container">
+                <h2 class="section-title text-center">My Skills <span class="heart-icon">♡</span></h2>
+                
+                <div class="skills-grid">
+                    <!-- Skill 1 -->
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon-bg icon-html">🍰</div>
+                            <span class="skill-name">Cake Decoration</span>
+                        </div>
+                        <div class="skill-progress-bar-container">
+                            <div class="skill-progress-bar" style="width: 95%;"></div>
+                        </div>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+
+                    <!-- Skill 2 -->
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon-bg icon-css">🥐</div>
+                            <span class="skill-name">Pastry Techniques</span>
+                        </div>
+                        <div class="skill-progress-bar-container">
+                            <div class="skill-progress-bar bar-css" style="width: 90%;"></div>
+                        </div>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+
+                    <!-- Skill 3 -->
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon-bg icon-js">📖</div>
+                            <span class="skill-name">Recipe Development</span>
+                        </div>
+                        <div class="skill-progress-bar-container">
+                            <div class="skill-progress-bar bar-js" style="width: 95%;"></div>
+                        </div>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+
+                    <!-- Skill 4 -->
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon-bg icon-react">🍭</div>
+                            <span class="skill-name">Sugar Art</span>
+                        </div>
+                        <div class="skill-progress-bar-container">
+                            <div class="skill-progress-bar bar-react" style="width: 80%;"></div>
+                        </div>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+
+                    <!-- Skill 5 -->
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon-bg icon-tailwind">🍞</div>
+                            <span class="skill-name">Bread & Yeast</span>
+                        </div>
+                        <div class="skill-progress-bar-container">
+                            <div class="skill-progress-bar bar-tailwind" style="width: 85%;"></div>
+                        </div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+
+                    <!-- Skill 6 -->
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon-bg icon-git">🍩</div>
+                            <span class="skill-name">Chocolate Work</span>
+                        </div>
+                        <div class="skill-progress-bar-container">
+                            <div class="skill-progress-bar bar-git" style="width: 85%;"></div>
+                        </div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+
+                    <!-- Skill 7 -->
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon-bg icon-uiux">📸</div>
+                            <span class="skill-name">Food Styling & Photo</span>
+                        </div>
+                        <div class="skill-progress-bar-container">
+                            <div class="skill-progress-bar bar-uiux" style="width: 90%;"></div>
+                        </div>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+
+                    <!-- Skill 8 -->
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon-bg icon-figma">👩‍🍳</div>
+                            <span class="skill-name">Kitchen Management</span>
+                        </div>
+                        <div class="skill-progress-bar-container">
+                            <div class="skill-progress-bar bar-figma" style="width: 85%;"></div>
+                        </div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+
+                    <!-- Skill 9 -->
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon-bg icon-responsive">🍓</div>
+                            <span class="skill-name">Flavor Pairing</span>
+                        </div>
+                        <div class="skill-progress-bar-container">
+                            <div class="skill-progress-bar bar-responsive" style="width: 95%;"></div>
+                        </div>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                </div>
+
+                <!-- Interactive Sticky Speech Bubble -->
+                <div class="skills-speech-container">
+                    <div class="speech-bubble">
+                        <p>Baking is love made visible and edible! <span class="heart-icon">♡</span> <span class="smile-icon">☺</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Wavy Divider to Projects -->
+        <div class="wave-divider wave-to-projects">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V0C26.9,8.75,53.05,22,81.13,31C164.71,57.77,248.8,69.58,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+
+        <!-- 4. My Projects Section -->
+        <section id="projects" class="section projects-section">
+            <div class="container projects-container">
+                <h2 class="section-title text-center">Bakery Projects <span class="heart-icon">♡</span></h2>
+                
+                <!-- Category Filter Capsules -->
+                <div class="filter-container">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="cakes">Cakes</button>
+                    <button class="filter-btn" data-filter="pastries">Pastries</button>
+                    <button class="filter-btn" data-filter="recipes">Recipes</button>
+                </div>
+
+                <!-- Projects Card Grid -->
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card" data-category="cakes">
+                        <div class="project-image-container">
+                            <img src="assets/project_plant.png" alt="Wedding Cakes Portfolio" class="project-image">
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Custom Design</span>
+                            <h3 class="project-name">Wedding Cakes</h3>
+                            <p class="project-description">A portfolio of floral-decorated three-tier custom wedding cakes.</p>
+                            <a href="#" class="btn-view-project">View Gallery <span class="arrow-diagonal">↗</span></a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card" data-category="pastries">
+                        <div class="project-image-container">
+                            <img src="assets/project_task.png" alt="French Macarons Collection" class="project-image">
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">French Pastry</span>
+                            <h3 class="project-name">Macaron Collection</h3>
+                            <p class="project-description">A collection of delicate French macarons with custom bear-cookies.</p>
+                            <a href="#" class="btn-view-project">View Collection <span class="arrow-diagonal">↗</span></a>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card" data-category="recipes">
+                        <div class="project-image-container">
+                            <img src="assets/project_brew.png" alt="Baking Cookbook" class="project-image">
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Publishing</span>
+                            <h3 class="project-name">Baking Cookbook</h3>
+                            <p class="project-description">A self-published guide on foolproof baking techniques for beginners.</p>
+                            <a href="#" class="btn-view-project">View Cookbook <span class="arrow-diagonal">↗</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bottom View All Button -->
+                <div class="text-center cta-projects-container">
+                    <a href="#" class="btn btn-pill-cta">View All Creations <span class="heart-icon">♡</span></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Wavy Divider to Blog -->
+        <div class="wave-divider wave-to-blog">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86C248.8,69.58,164.71,57.77,81.13,31,53.05,22,26.9,8.75,0,0V120H1200V95.83C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+            </svg>
+        </div>
+
+        <!-- 5. My Blog Section -->
+        <section id="blog" class="section blog-section">
+            <div class="container blog-container">
+                <div class="blog-left">
+                    <h2 class="section-title">My Blog <span class="heart-icon">♡</span></h2>
+                    
+                    <div class="blog-list">
+                        <!-- Blog Post 1 -->
+                        <article class="blog-item">
+                            <div class="blog-thumb">
+                                <img src="assets/about_girl.png" alt="Post thumbnail" class="blog-thumb-img">
+                            </div>
+                            <div class="blog-details">
+                                <h3 class="blog-item-title">Mastering the French Meringue</h3>
+                                <p class="blog-item-excerpt">Tips and tricks to get shiny, stiff peaks for stable macarons...</p>
+                                <div class="blog-meta">
+                                    <span class="blog-date">📅 Jun 10, 2026</span>
+                                    <span class="blog-readtime">⏱ 5 min read</span>
+                                </div>
+                                <a href="#" class="btn-readmore">Read More</a>
+                            </div>
+                        </article>
+
+                        <!-- Blog Post 2 -->
+                        <article class="blog-item">
+                            <div class="blog-thumb">
+                                <img src="assets/hero_girl.png" alt="Post thumbnail" class="blog-thumb-img">
+                            </div>
+                            <div class="blog-details">
+                                <h3 class="blog-item-title">5 Cake Decorating Essentials</h3>
+                                <p class="blog-item-excerpt">The tools you need to create clean edges and floral designs...</p>
+                                <div class="blog-meta">
+                                    <span class="blog-date">📅 May 28, 2026</span>
+                                    <span class="blog-readtime">⏱ 7 min read</span>
+                                </div>
+                                <a href="#" class="btn-readmore">Read More</a>
+                            </div>
+                        </article>
+
+                        <!-- Blog Post 3 -->
+                        <article class="blog-item">
+                            <div class="blog-thumb">
+                                <img src="assets/project_task.png" alt="Post thumbnail" class="blog-thumb-img">
+                            </div>
+                            <div class="blog-details">
+                                <h3 class="blog-item-title">The Science of Yeast Dough</h3>
+                                <p class="blog-item-excerpt">Why temperature and rising time are your best friends in bread baking.</p>
+                                <div class="blog-meta">
+                                    <span class="blog-date">📅 May 15, 2026</span>
+                                    <span class="blog-readtime">⏱ 6 min read</span>
+                                </div>
+                                <a href="#" class="btn-readmore">Read More</a>
+                            </div>
+                        </article>
+                    </div>
+                    
+                    <div class="blog-cta-wrapper">
+                        <a href="#" class="btn btn-pill-cta">View All Posts <span class="heart-icon">♡</span></a>
+                    </div>
+                </div>
+                
+                <div class="blog-right">
+                    <div class="illustration-wrapper blog-wrapper">
+                        <!-- Speech bubble -->
+                        <div class="bubble thoughts-bubble">
+                            <p>Whisk ✦</p>
+                            <p>Bake ✦</p>
+                            <p>Sweeten ✦</p>
+                        </div>
+                        <img src="assets/blog_girl.png" alt="Manisha writing in a notebook" class="main-illustration blog-illustration">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Wavy Divider to Contact -->
+        <div class="wave-divider wave-to-contact">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V0C26.9,8.75,53.05,22,81.13,31C164.71,57.77,248.8,69.58,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+
+        <!-- 6. Let's Connect / Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container contact-container">
+                <div class="contact-left">
+                    <h2 class="section-title">Let's Connect! <span class="envelope-icon">✉</span></h2>
+                    <p class="contact-subtitle">Interested in custom cakes or sweet recipe developer collaborations? Send a message!</p>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <div class="input-icon-wrapper">
+                                <span class="input-icon">👤</span>
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-icon-wrapper">
+                                <span class="input-icon">✉</span>
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-icon-wrapper">
+                                <span class="input-icon">✏</span>
+                                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-icon-wrapper align-start">
+                                <span class="input-icon textarea-icon">💬</span>
+                                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-submit">Send Message <span class="btn-icon">✉</span></button>
+                    </form>
+
+                    <!-- Social Icons -->
+                    <div class="socials-wrapper">
+                        <span class="socials-title">Find me on</span>
+                        <div class="socials-links">
+                            <a href="#" class="social-icon" aria-label="Instagram">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 .001 12.325 6.162 6.162 0 0 0-.001-12.325zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/>
+                                </svg>
+                            </a>
+                            <a href="mailto:manisha.roy.bake@example.com" class="social-icon" aria-label="Email">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-right">
+                    <div class="illustration-wrapper contact-wrapper">
+                        <img src="assets/contact_girl.png" alt="Manisha waving" class="main-illustration contact-illustration">
+                        <div class="contact-bubble bubble">
+                            <p>Thank you! <span class="heart-icon">♡</span></p>
+                            <p>Let's bake something sweet. <span class="smile-icon">☺</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-main">
+        <p>&copy; 2026 Manisha Roy. Designed & Built with Love by <a href="https://mtechnology.dev" target="_blank" rel="noopener noreferrer">Mtechnology</a> 💖</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
